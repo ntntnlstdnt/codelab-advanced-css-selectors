@@ -1,0 +1,15 @@
+tr:nth-child(odd){
+    background: red;
+}
+td:hover{
+    background: blue;
+}
+td:last-child{
+    font-style: italic;
+}
+tr:first-child{
+    font-weight: bold;
+}
+:empty{
+    empty-cells: hide;
+}
